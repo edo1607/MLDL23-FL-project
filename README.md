@@ -33,4 +33,4 @@ Make a new [wandb](https://wandb.ai/site) account if you do not have one yet, an
 
 ### How to run
 
-Create a jupyter notebook file and upload it in the "run project" folder. Then write ```!main.py ``` in a new chunk followed by the line arguments, just like ```--num_epochs 9```. Pay attention while setting these parameters, that are a little bit different depending on which part of the model you would like to use.
+Create a jupyter notebook file and upload it in the "run_project" folder. Then import the ```main.py ``` file and type ```!main.py``` in a new chunk followed by the line arguments, just like ```--num_epochs 9```. Pay attention while setting these parameters, that are a little bit different depending on which part of the model you would like to use.
