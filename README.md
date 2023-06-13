@@ -22,8 +22,8 @@ conda activate Project
 
 ### Datasets
 
-1) Download the the IDDA dataset from [here](https://mega.nz/file/yBwVGR6A#z2AyGYdsuHERRY67i6JKxhK9cbgVwhYWp4PyrrITbMQ)
-2) Download the GTA5 dataset from [here](https://mega.nz/file/ERkiQBaY#h-wktK7U7MpIG5nf-rMWF7d76NEM5ae_MrAmELftNR0)
+1) Download the the IDDA dataset from [here](https://mega.nz/file/yBwVGR6A#z2AyGYdsuHERRY67i6JKxhK9cbgVwhYWp4PyrrITbMQ).
+2) Download the GTA5 dataset from [here](https://mega.nz/file/ERkiQBaY#h-wktK7U7MpIG5nf-rMWF7d76NEM5ae_MrAmELftNR0).
 5) Extract all the datasets' archives. Then, move the datasets' folders in ```data/[dataset_name]```, 
 where ```[dataset_name]``` is one of ```{IDDA, GTA5}```.
 
@@ -33,4 +33,4 @@ Make a new [wandb](https://wandb.ai/site) account if you do not have one yet, an
 
 ### How to run
 
-In the "run project" folder, you can find an empty jupyter notebook file where you can run the algorithm: just write ```!main.py ``` in a new chunk followed by the line arguments, just like ```--num_epochs 9```. Pay attention while setting this parameters, that are a little bit different depending on which part of the model you would like to use.
+In the "run project" folder, you can find an empty jupyter notebook file where you can run the algorithm: just write ```!main.py ``` in a new chunk followed by the line arguments, just like ```--num_epochs 9```. Pay attention while setting these parameters, that are a little bit different depending on which part of the model you would like to use.
