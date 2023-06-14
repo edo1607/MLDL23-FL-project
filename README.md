@@ -33,4 +33,14 @@ Make a new [wandb](https://wandb.ai/site) account if you do not have one yet, an
 
 ### How to run
 
-Create a jupyter notebook file and upload it in the "run_project" folder. Then import the ```main.py ``` file and type ```!main.py``` in a new chunk followed by the line arguments, just like ```--num_epochs 9```. Pay attention while setting these parameters, that are a little bit different depending on which part of the model you would like to use.
+Run the code written in the ```test.ipynb``` file. The key parameter you must choose is ```--step```, that decides the part of the model to employ. More specifically, type:
+
+- ```--step 1``` if you would like to train and test the algorithm on IDDA in a supervised centralized environment;
+- ```--step 2``` if you would like to train and test the algorithm on IDDA in a supervised federated environment;
+- ```--step 3a``` if you would like to train the algorithm on GTA5 and test it on IDDA in a centralized environment;
+- ```--step 3b``` if you would like to train the algorithm on GTA5 and test it on IDDA in a centralized setting, using the style-transfer technique;
+- ```--step 4``` if you would like to run the algorithm in a federated and semi-supervised setting, training a teacher model on GTA5 and a student model on IDDA and using pseudo-labels as ground truth instead of the original labels;
+- ```--step 5a``` if you would like to run the algorithm in a centralized environment utilizing adversarial learning;
+- ```--step 5b``` if you would like to run the algorithm in a federated environment utilizing adversarial learning.
+
+Step 4 also require ```--path_model``` to be set, that represents the checkpoint of step 3 which the experiment is based on. In general, feel free to set the line arguments however you prefer; if you do not choose any value for a parameter, it will be set to a certain default value.
