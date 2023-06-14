@@ -43,4 +43,4 @@ Run the code written in the ```test.ipynb``` file. The key parameter you must ch
 - ```--step 5a``` if you would like to run the algorithm in a centralized environment utilizing adversarial learning;
 - ```--step 5b``` if you would like to run the algorithm in a federated environment utilizing adversarial learning.
 
-Step 4 also require ```--path_model``` to be set, that represents the checkpoint of step 3 which the experiment is based on. In general, feel free to set the line arguments however you prefer; if you do not choose any value for a parameter, it will be set to a certain default value.
+Step 4 also require ```--path_model``` to be set, that represents the checkpoint of step 3 which the experiment is based on. In general, feel free to set the line arguments however you prefer; in ```test.ipynb``` file, the only argument we set is ```--step 1``` as an example. If you do not choose any value for a parameter, it will be set to a certain default value.
