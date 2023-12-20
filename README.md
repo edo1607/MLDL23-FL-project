@@ -48,3 +48,6 @@ Step 4 also require ```--path_model``` to be set, that represents the checkpoint
 Similarly does step 5c, requiring ```--path_model``` and ```--path_discriminator```.
 
 In general, feel free to set the line arguments however you prefer; in ```test.ipynb``` file, the only argument we set is ```--step 1``` as an example. Besides necessary values, if you do not choose any value for a parameter, it will be set to a certain default value, as in ```utils/args.py```, where are shown all the possible hyper-parameters.
+
+![Example of semantic segmentation](https://github.com/edo1607/MLDL23-FL-project/assets/67823727/8e71a6f2-c316-4e9e-9f81-7efa841632a4)
+
